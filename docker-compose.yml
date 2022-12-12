@@ -1,9 +1,9 @@
 version: "3"
 services:
   neo4j:
-    container_name: koukaten2022_neo4j
-    build: ./docker/neo4j
-    image: koukaten_neo4j
+    container_name: neo4j_routing
+    build: ./neo4j
+    image: neo4j_routing
     ports:
       - "57474:7474"
       - "57687:7687"
